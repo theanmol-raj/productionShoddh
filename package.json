@@ -6,11 +6,30 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@headlessui/react": "^1.7.7",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.4",
+    "@portabletext/react": "^2.0.0",
+    "@sanity/image-url": "^1.0.1",
+    "@sanity/vision": "^3.0.0",
+    "@thirdweb-dev/auth": "^2.0.39",
+    "@thirdweb-dev/react": "^3.6.9",
+    "@thirdweb-dev/sdk": "^3.6.9",
+    "axios": "^1.2.2",
+    "ethers": "^5.7.2",
     "next": "latest",
+    "next-sanity": "^4.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-portable-text": "^0.5.1",
+    "sanity": "^3.0.0",
+    "styled-components": "^5.2.0",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
+    "@sanity/eslint-config-studio": "^2.0.1",
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
