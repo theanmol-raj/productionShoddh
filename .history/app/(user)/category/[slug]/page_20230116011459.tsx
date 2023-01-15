@@ -35,12 +35,8 @@ async function page({ params: { slug } }: Props) {
   } 
   }
   `;
-
-const post: any = await client.fetch(query, { slug });
-
-if(!post) return <h1>loading</h1>
-
-return (
+  const post: any = await client.fetch(query, { slug });
+  return (
     <div className={``}>
       {/* <Navbar /> */}
       <div className=" max-w-7xl pt-40 mx-auto">
