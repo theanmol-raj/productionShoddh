@@ -18,6 +18,7 @@
     "@thirdweb-dev/react": "^3.6.9",
     "@thirdweb-dev/sdk": "^3.6.9",
     "axios": "^1.2.2",
+    "encoding": "^0.1.13",
     "ethers": "^5.7.2",
     "next": "latest",
     "next-sanity": "^4.0.4",
